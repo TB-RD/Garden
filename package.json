@@ -1,19 +1,28 @@
 {
   "name": "gif-bot",
   "version": "1.0.0",
-  "description": "",
+  "description": "** Garden bot for descord gifs **",
   "main": "bot.js",
+  "dependencies": {
+    "discord.js": "^13.0.1",
+    "dotenv": "^10.0.0",
+    "glob-parent": "^5.1.2",
+    "node-fetch": "^2.6.1",
+    "nodemon": "^2.0.7",
+    "normalize-url": "^4.5.1",
+    "ws": "^7.5.3"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TB-RD/Garden.git"
+  },
+  "author": "jag",
   "license": "ISC",
-  "dependencies": {
-    "discord": "^0.8.2",
-    "discord.js": "^12.5.1",
-    "dotenv": "^8.2.0",
-    "js": "^0.1.0",
-    "node-fetch": "^2.6.1",
-    "nodemon": "^2.0.7"
-  }
+  "bugs": {
+    "url": "https://github.com/TB-RD/Garden/issues"
+  },
+  "homepage": "https://github.com/TB-RD/Garden#readme"
 }
